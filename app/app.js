@@ -13,7 +13,7 @@ const args = process.argv.slice(2);
  * Application entry point
  */
 function applicationStart() {
-    let args = ["=2*{1},4,=3*{1},=4*{1},=5*{1},=6*{1},=7*{1}"];
+    //let args = ["=2*{1},4,=3*{1},=4*{1},=5*{1},=6*{1},=7*{1}"];
     let isArgumentsValid = validateUserInput(args);
     if (!isArgumentsValid) {
         //Exit app in case of invalid arguments
